@@ -1,0 +1,71 @@
+.stock-info-div {
+    /* padding: 20px 50px; */
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 110px;
+}
+
+.stock-info-btn {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 10px;
+    border: none;
+    display: block;
+}
+
+.stock-info-btn:hover {
+    opacity: 0.5;
+}
+
+.candlesticks-chart-div {
+    width: 70%;
+    display: inline-block;
+}
+
+
+.black-font {
+    color: black;
+}
+
+.buy-btn {
+    background-color: #5A9628;
+    color: white;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.sell-btn {
+    background-color: #FF3333;
+    color: white;
+    width: 100px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.loader {
+    margin: auto;
+    width: fit-content;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 600px){
+    .candlesticks-chart-div{
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .stock-info-div{
+        display: block;
+        width: 90%;
+        position: relative;
+        top: 0;
+    }
+}

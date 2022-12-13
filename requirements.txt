@@ -1,0 +1,12 @@
+json
+ast
+kafka
+pymongo
+flask
+pymongo
+bcrypt
+yfinance
+json
+string
+re
+uuid

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.navbar-2 {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 85%;
+}
+
+.logout-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #979a9b;
+    font-size: 16px;
+}
+
+.logout-btn:hover {
+    color: white;
+}
+
+.link {
+    margin-right: 25px;
+}
+
+.div {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .logout-btn{
+        top: -10px;
+    }
+}

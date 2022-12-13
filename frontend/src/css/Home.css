@@ -1,0 +1,113 @@
+.navbar {
+    display: inline-block;
+    background-color: #15191c;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+}
+
+.navbar-menu-icon {
+    height: 0;
+    margin: 0;
+    visibility: hidden;
+    color: #979a9b;
+}
+
+.navbar-btn {
+    display: block;
+    color: #979a9b;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px 0px;
+    padding: 12px 25px;
+    border-radius: 0 20px 20px 0;
+}
+
+.navbar-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-btn:focus {
+    text-decoration: none;
+}
+
+.search-form-div {
+    width: 50%;
+    margin: auto;
+}
+
+.search-bar {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin: 10px;
+    width: 50%;
+    height: 40px;
+    border-radius: 18px;
+    padding: 15px;
+}
+
+.search-stock-btn {
+    color: white;
+    background: #ff654d;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px ;
+}
+
+.search-stock-btn:hover {
+    background-color: orangered;
+}
+
+.navbar-visible {
+    width: 50%;
+    z-index: 1;
+}
+
+.hamburger-icon {
+    position: relative;
+    bottom: 3px;
+    z-index: 1;
+}
+
+.cross-icon {
+    position: absolute;
+    left: 170px;
+    visibility: hidden;
+}
+
+
+
+/* .table-row {
+    background: black;
+}
+.table-row :hover{
+    background: orange;
+    color: black;
+} */
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-menu-icon {
+        visibility: visible;
+        margin: 20px;
+    }
+
+    .search-form-div {
+        width: 95%;
+        padding-left: 25px;
+    }
+
+    .search-stock-input {
+        width: 60%;
+    }
+    .stock-list-table {
+        font-size: 18px;
+    }
+  }

@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "chart.js": "^3.8.0",
+    "js-cookie": "^3.0.1",
+    "react-chartjs-2": "^4.1.0",
+    "react-google-charts": "^4.0.0",
+    "react-toastify": "^9.0.5",
+    "reactjs-popup": "^2.0.5"
+  }
+}

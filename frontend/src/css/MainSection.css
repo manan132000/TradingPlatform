@@ -1,0 +1,18 @@
+.main-section {
+    display: inline-block;
+    background-color: #1f2227;
+    color: #dbdcde;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 40px 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-section {
+        width: 100%;
+        padding-top: 0;
+    }
+}

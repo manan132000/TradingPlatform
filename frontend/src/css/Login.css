@@ -1,0 +1,6 @@
+.login-div {
+    height: 100%;
+    background-size: cover;
+    background-image: url('../images/login-image.png');
+    padding-top: 60px;
+}

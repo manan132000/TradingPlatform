@@ -1,0 +1,24 @@
+.portfolio-table-div {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    margin: 50px 100px;
+    width: 45%;
+}
+.chart-div {
+    display: inline-block;
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    .chart-div {
+        display: block;
+        width: 100%;
+    }
+    .portfolio-table-div {
+        display: block;
+        position: relative;
+        width: 90%;
+        margin: 25px;
+    }
+}

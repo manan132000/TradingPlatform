@@ -1,0 +1,25 @@
+
+.stock-link {
+    color: #ddd;
+}
+
+.stock-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.stock-name:hover {
+    background-color: #292e32;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* .centre-td {
+    text-align: center;
+    vertical-align: middle;
+} */

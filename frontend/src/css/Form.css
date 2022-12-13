@@ -1,0 +1,91 @@
+p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.login-form-div {
+  margin: auto;
+    width: 35%;
+    color: white;
+    background-color: black;
+    padding: 30px 0px 60px;
+    /* border: 1px solid white; */
+    box-shadow: 0 1px 5px 0 rgba(139, 134, 134, 0.31), 0 0px 10px 0 rgba(113, 107, 107, 0.929);
+
+}
+
+.login-form {
+    margin: auto;
+    width: 50%;
+    color: white;
+    background-color: black;
+    padding: 30px 0px;
+    /* border: 1px solid white; */
+}
+
+.form-control {
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+  color: white;
+}
+
+.form-control:focus {
+  background: transparent;
+  box-shadow: none !important;
+  color: white;
+}
+
+.text-center {
+  margin: auto;
+  padding: 30px 0px 10px;
+}
+
+.login-field {
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    background: #ff654d;
+    border: none;
+    padding: 10px 20px;
+}
+
+.submit-btn:hover,.submit-btn:focus {
+  background: orangered;
+}
+
+.signup-link-div {
+  font-size: 16px;
+}
+
+.signup-link-div a {
+  color: white;
+  margin-left: 6px;
+}
+
+.login-error {
+  font-size: 16px;
+}
+
+.invalid-field {
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .login-form-div {
+    width: 80%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .login-form-div {
+    width: 80%;
+    margin-top: 5%;
+  }
+}
